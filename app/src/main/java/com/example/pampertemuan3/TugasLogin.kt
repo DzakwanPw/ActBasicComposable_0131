@@ -11,7 +11,6 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.unit.dp
-import com.example.pampertemuan3.ui.theme.Column
 
 @Composable
 fun TugasLogin(modifier: Modifier = Modifier) {
@@ -29,8 +28,15 @@ fun TugasLogin(modifier: Modifier = Modifier) {
                 .padding(top = 40.dp),
             horizontalAlignment = Alignment.CenterHorizontally
         ) {
-
+            Text(
+                text = "Login",
+                fontSize = 32.sp,
+                fontWeight = FontWeight.Bold,
+                color = Color.Blue
+            )
         }
+
+
     }
 
 }
