@@ -9,3 +9,5 @@ import androidx.compose.ui.Modifier
 fun contohColumn(modifier: Modifier) {
     Column(modifier = modifier  )
 }
+
+fun Column(modifier: Modifier) {}
