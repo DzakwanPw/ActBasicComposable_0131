@@ -20,7 +20,7 @@ class MainActivity : ComponentActivity() {
         setContent {
             PAMPertemuan3Theme {
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
-                        TugasLogin(modifier = Modifier.padding(innerPadding))
+                    TataletakBoxColumnRow(modifier = Modifier.padding(innerPadding))
                 }
             }
         }
